@@ -25,3 +25,9 @@ D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\runtim
 D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\ExcelDataReader.dll
+D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\ExcelDataReader.DataSet.dll
+D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\PdfiumViewer.dll
+D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\nl\PdfiumViewer.resources.dll
+D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\x64\pdfium.dll
+D:\Chuyên đề CNPM\Midterm\Read_File\Read_File\bin\Debug\netcoreapp3.1\x86\pdfium.dll
