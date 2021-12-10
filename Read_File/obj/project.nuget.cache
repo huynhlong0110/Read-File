@@ -1,22 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "cO93Cj6ZtAfL32LAx+dPg2dCkUrUUPnIhLxE7FLbsuGKadQ40F/XPFxwT4kreIEMyNpopeMFJ8Rdjwqrg1uQdA==",
+  "dgSpecHash": "yvcRtmWENPOWXuTLxs09sPxg8GoYhPel/aDPgOv+BiTr9jqALnJthKqz357JewTj9sXnfafh3jCAGpYKhLg84Q==",
   "success": true,
   "projectFilePath": "D:\\Chuyên đề CNPM\\Midterm\\Read_File\\Read_File\\Read_File.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Long\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
     "C:\\Users\\Long\\.nuget\\packages\\exceldatareader.dataset\\3.1.0\\exceldatareader.dataset.3.1.0.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\gembox.document\\33.0.1345\\gembox.document.33.0.1345.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1003\\microsoft.office.interop.word.15.0.4797.1003.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\microsoft.office365.discovery\\1.0.22\\microsoft.office365.discovery.1.0.22.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\newtonsoft.json\\6.0.5\\newtonsoft.json.6.0.5.nupkg.sha512",
     "C:\\Users\\Long\\.nuget\\packages\\pdfiumviewer\\2.13.0\\pdfiumviewer.2.13.0.nupkg.sha512",
     "C:\\Users\\Long\\.nuget\\packages\\pdfiumviewer.native.x86.v8-xfa\\2018.4.8.256\\pdfiumviewer.native.x86.v8-xfa.2018.4.8.256.nupkg.sha512",
     "C:\\Users\\Long\\.nuget\\packages\\pdfiumviewer.native.x86_64.v8-xfa\\2018.4.8.256\\pdfiumviewer.native.x86_64.v8-xfa.2018.4.8.256.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
-    "C:\\Users\\Long\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+    "C:\\Users\\Long\\.nuget\\packages\\syncfusion.compression.base\\19.3.0.57\\syncfusion.compression.base.19.3.0.57.nupkg.sha512",
+    "C:\\Users\\Long\\.nuget\\packages\\syncfusion.docio.winforms\\19.3.0.57\\syncfusion.docio.winforms.19.3.0.57.nupkg.sha512",
+    "C:\\Users\\Long\\.nuget\\packages\\syncfusion.licensing\\19.3.0.57\\syncfusion.licensing.19.3.0.57.nupkg.sha512",
+    "C:\\Users\\Long\\.nuget\\packages\\syncfusion.officechart.base\\19.3.0.57\\syncfusion.officechart.base.19.3.0.57.nupkg.sha512"
   ],
   "logs": [
     {
@@ -25,36 +21,6 @@
       "warningLevel": 1,
       "message": "Package 'ExcelDataReader.DataSet 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "ExcelDataReader.DataSet",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Office.Interop.Word 15.0.4797.1003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Office.Interop.Word",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Office365.Discovery 1.0.22' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Office365.Discovery",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json 6.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

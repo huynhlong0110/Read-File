@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using GemBox.Document;
 using ExcelDataReader;
 using PdfiumViewer;
+using Syncfusion.DocIO.DLS;
+
 
 namespace Read_File
 {
@@ -38,14 +33,11 @@ namespace Read_File
 
         public void readWord(string path)
         {
-            ComponentInfo.SetLicense("FREE-LIMITED-KEY");
-            var document = DocumentModel.Load(path);
-
-            // Get Word document's plain text.
-            string text = document.Content.ToString();
+            WordDocument document = new WordDocument(path);
+            string text = document.GetText();
             richTextBox1.Text = text;
+        
         }
-
        
 
         public void readExcel(string path)
@@ -95,14 +87,16 @@ namespace Read_File
             if (filedialog.ShowDialog() == DialogResult.OK)
             {
                 hiden();
-                richTextBox_Path.Text = filedialog.FileName;
+
                 if (filedialog.FileName.EndsWith("txt"))
                 {
                     textBoxShow();
                     readText(filedialog.FileName);
+
                 }
                 else if (filedialog.FileName.EndsWith("docx") || filedialog.FileName.EndsWith("doc"))
                 {
+                    
                     textBoxShow();
                     readWord(filedialog.FileName);
                 }
@@ -115,15 +109,15 @@ namespace Read_File
                 else if (filedialog.FileName.EndsWith("pdf"))
                 {
                     hiden();
-                    richTextBox_Path.Hide();
                     readPDF(filedialog.FileName);
 
                 }
-
 
             }
 
 
         }
+
+       
     }
 }

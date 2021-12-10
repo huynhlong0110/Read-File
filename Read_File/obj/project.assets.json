@@ -20,82 +20,6 @@
           "lib/net45/ExcelDataReader.DataSet.dll": {}
         }
       },
-      "GemBox.Document/33.0.1345": {
-        "type": "package",
-        "dependencies": {
-          "Portable.BouncyCastle": "1.8.9",
-          "System.Drawing.Common": "5.0.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/GemBox.Document.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/GemBox.Document.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.1/GemBox.Document.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          }
-        }
-      },
-      "Microsoft.NETCore.Platforms/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Office.Interop.Word/15.0.4797.1003": {
-        "type": "package",
-        "compile": {
-          "lib/net20/Microsoft.Office.Interop.Word.dll": {}
-        },
-        "runtime": {
-          "lib/net20/Microsoft.Office.Interop.Word.dll": {}
-        }
-      },
-      "Microsoft.Office365.Discovery/1.0.22": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "6.0.5"
-        },
-        "compile": {
-          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
-        }
-      },
-      "Microsoft.Win32.SystemEvents/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "Newtonsoft.Json/6.0.5": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        }
-      },
       "PdfiumViewer/2.13.0": {
         "type": "package",
         "compile": {
@@ -122,35 +46,48 @@
           "Build/PdfiumViewer.Native.x86_64.v8-xfa.props": {}
         }
       },
-      "Portable.BouncyCastle/1.8.9": {
+      "Syncfusion.Compression.Base/19.3.0.57": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+          "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+          "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll": {}
         }
       },
-      "System.Drawing.Common/5.0.0": {
+      "Syncfusion.DocIO.WinForms/19.3.0.57": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "5.0.0"
+          "Syncfusion.Compression.Base": "19.3.0.57",
+          "Syncfusion.Licensing": "19.3.0.57",
+          "Syncfusion.OfficeChart.Base": "19.3.0.57"
         },
         "compile": {
-          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+          "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
+          "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.3.0.57": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
         },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.OfficeChart.Base/19.3.0.57": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.3.0.57"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll": {}
         }
       }
     }
@@ -192,134 +129,6 @@
         "lib/net20/ExcelDataReader.DataSet.xml",
         "lib/net45/ExcelDataReader.DataSet.dll",
         "lib/net45/ExcelDataReader.DataSet.xml"
-      ]
-    },
-    "GemBox.Document/33.0.1345": {
-      "sha512": "2LPL+czT10SASxy78LzaTXgc/P08bXfw4SMrfXceWCLIkcJjVPFKBwZ66vaiJs64ZZ51SI5O/D6NLHpEtFWzxw==",
-      "type": "package",
-      "path": "gembox.document/33.0.1345",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "PackageIcon.png",
-        "README.md",
-        "Readme.txt",
-        "gembox.document.33.0.1345.nupkg.sha512",
-        "gembox.document.nuspec",
-        "lib/net35/GemBox.Document.dll",
-        "lib/net35/GemBox.Document.xml",
-        "lib/netcoreapp3.1/GemBox.Document.dll",
-        "lib/netcoreapp3.1/GemBox.Document.xml",
-        "lib/netstandard2.0/GemBox.Document.dll",
-        "lib/netstandard2.0/GemBox.Document.xml",
-        "licenses/EULA.txt",
-        "licenses/ThirdPartyCodeLicenses/DotNetZip License.txt",
-        "licenses/ThirdPartyCodeLicenses/ExCSS License.txt",
-        "licenses/ThirdPartyCodeLicenses/PDFsharp and MigraDoc License.txt",
-        "licenses/ThirdPartyCodeLicenses/Portable.Text.Encoding License.txt",
-        "licenses/ThirdPartyCodeLicenses/QRCoder License.txt",
-        "licenses/ThirdPartyCodeLicenses/SVG.NET License.txt",
-        "licenses/ThirdPartyCodeLicenses/b2xtranslator License.txt",
-        "licenses/ThirdPartyCodeLicenses/barcodelib License.txt",
-        "runtimes/unix/lib/netcoreapp3.1/GemBox.Document.dll"
-      ]
-    },
-    "Microsoft.NETCore.Platforms/5.0.0": {
-      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
-      "type": "package",
-      "path": "microsoft.netcore.platforms/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
-        "runtime.json",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Microsoft.Office.Interop.Word/15.0.4797.1003": {
-      "sha512": "p22pljmHaQjDxNLqO+uO5vi3y0TK5t1mAtSAg93K28/e12Hw3qzfflAo6XHvNXxnvz9HZGv59vLCwIaC9xbXNQ==",
-      "type": "package",
-      "path": "microsoft.office.interop.word/15.0.4797.1003",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net20/Microsoft.Office.Interop.Word.dll",
-        "microsoft.office.interop.word.15.0.4797.1003.nupkg.sha512",
-        "microsoft.office.interop.word.nuspec"
-      ]
-    },
-    "Microsoft.Office365.Discovery/1.0.22": {
-      "sha512": "NBBT0C+MpLvMZdsQEbhhcop/dNUHFJpjnwoeCiS0XZCX5RArtuPSDp2oiMmY5Cf8ehwmti+wzMZ2pbxkvNJ7Ug==",
-      "type": "package",
-      "path": "microsoft.office365.discovery/1.0.22",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "License-Stable.rtf",
-        "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll",
-        "microsoft.office365.discovery.1.0.22.nupkg.sha512",
-        "microsoft.office365.discovery.nuspec"
-      ]
-    },
-    "Microsoft.Win32.SystemEvents/5.0.0": {
-      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
-      "type": "package",
-      "path": "microsoft.win32.systemevents/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Win32.SystemEvents.dll",
-        "lib/net461/Microsoft.Win32.SystemEvents.xml",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-        "microsoft.win32.systemevents.nuspec",
-        "ref/net461/Microsoft.Win32.SystemEvents.dll",
-        "ref/net461/Microsoft.Win32.SystemEvents.xml",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Newtonsoft.Json/6.0.5": {
-      "sha512": "gPrmi+71KZJ3oNJfbpCaFW0xMZQ/eT60fnOgULgoqPrmnuuoEzxxSNDkTrOC9MlnfQPhUnL3yUSkG34MbykMIA==",
-      "type": "package",
-      "path": "newtonsoft.json/6.0.5",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netcore45/Newtonsoft.Json.dll",
-        "lib/netcore45/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.6.0.5.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
       ]
     },
     "PdfiumViewer/2.13.0": {
@@ -364,61 +173,124 @@
         "pdfiumviewer.native.x86_64.v8-xfa.nuspec"
       ]
     },
-    "Portable.BouncyCastle/1.8.9": {
-      "sha512": "wlJo8aFoeyl+W93iFXTK5ShzDYk5WBqoUPjTNEM0Xv9kn1H+4hmuCjF0/n8HLm9Nnp1aY6KNndWqQTNk+NGgRQ==",
+    "Syncfusion.Compression.Base/19.3.0.57": {
+      "sha512": "F2t4++dy54bol3mwOUgLFE/JzZiUT/F1tdMKRYeRrHPfYsaBWE/K7ilKx1Fv8RK2b0svoN9yXU4xSz2rfGwjqg==",
       "type": "package",
-      "path": "portable.bouncycastle/1.8.9",
+      "path": "syncfusion.compression.base/19.3.0.57",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/BouncyCastle.Crypto.dll",
-        "lib/net40/BouncyCastle.Crypto.xml",
-        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
-        "portable.bouncycastle.1.8.9.nupkg.sha512",
-        "portable.bouncycastle.nuspec"
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.Compression.Base.dll",
+        "lib/net20/Syncfusion.Compression.Base.xml",
+        "lib/net35/Syncfusion.Compression.Base.dll",
+        "lib/net35/Syncfusion.Compression.Base.xml",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net45/Syncfusion.Compression.Base.dll",
+        "lib/net45/Syncfusion.Compression.Base.xml",
+        "lib/net451/Syncfusion.Compression.Base.dll",
+        "lib/net451/Syncfusion.Compression.Base.xml",
+        "lib/net46/Syncfusion.Compression.Base.dll",
+        "lib/net46/Syncfusion.Compression.Base.xml",
+        "lib/net5.0/Syncfusion.Compression.Base.dll",
+        "lib/net5.0/Syncfusion.Compression.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Compression.Base.xml",
+        "syncfusion.compression.base.19.3.0.57.nupkg.sha512",
+        "syncfusion.compression.base.nuspec",
+        "syncfusion_logo.png"
       ]
     },
-    "System.Drawing.Common/5.0.0": {
-      "sha512": "SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+    "Syncfusion.DocIO.WinForms/19.3.0.57": {
+      "sha512": "vOiIQgHWpXiM+47Hy/go97Lr8fAAOUh/eWZtcbzLDBzaSvZd6QzASUKiUg9UIloRHaaa01Mh0ah0cIDv4ut+HQ==",
       "type": "package",
-      "path": "system.drawing.common/5.0.0",
+      "path": "syncfusion.docio.winforms/19.3.0.57",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "lib/netstandard2.0/System.Drawing.Common.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.xml",
-        "ref/netstandard2.0/System.Drawing.Common.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.5.0.0.nupkg.sha512",
-        "system.drawing.common.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "LICENSE.txt",
+        "README.md",
+        "lib/net20/Syncfusion.DocIO.Base.dll",
+        "lib/net20/Syncfusion.DocIO.Base.xml",
+        "lib/net35/Syncfusion.DocIO.Base.dll",
+        "lib/net35/Syncfusion.DocIO.Base.xml",
+        "lib/net40/Syncfusion.DocIO.Base.dll",
+        "lib/net40/Syncfusion.DocIO.Base.xml",
+        "lib/net45/Syncfusion.DocIO.Base.dll",
+        "lib/net45/Syncfusion.DocIO.Base.xml",
+        "lib/net451/Syncfusion.DocIO.Base.dll",
+        "lib/net451/Syncfusion.DocIO.Base.xml",
+        "lib/net46/Syncfusion.DocIO.Base.dll",
+        "lib/net46/Syncfusion.DocIO.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.DocIO.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.DocIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.xml",
+        "syncfusion.docio.winforms.19.3.0.57.nupkg.sha512",
+        "syncfusion.docio.winforms.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/19.3.0.57": {
+      "sha512": "+KlPbfggYy1s6PwkIlAZj9yh04CEAqdITK0ch3gAEJWteu+WueCqurXn1YIecFpRLoBXsNYP/BvuOQpmVOmnQw==",
+      "type": "package",
+      "path": "syncfusion.licensing/19.3.0.57",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0-windows10.0/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.19.3.0.57.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.OfficeChart.Base/19.3.0.57": {
+      "sha512": "OPsIIpWoWuPWCZJlUGZVnnFbnKK2ymedmdmTbQS0wlC62jb2VT6xz8UCgB4gnlKnX53VRYmoQAdkltoblpJKAQ==",
+      "type": "package",
+      "path": "syncfusion.officechart.base/19.3.0.57",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.OfficeChart.Base.dll",
+        "lib/net20/Syncfusion.OfficeChart.Base.xml",
+        "lib/net35/Syncfusion.OfficeChart.Base.dll",
+        "lib/net35/Syncfusion.OfficeChart.Base.xml",
+        "lib/net40/Syncfusion.OfficeChart.Base.dll",
+        "lib/net40/Syncfusion.OfficeChart.Base.xml",
+        "lib/net45/Syncfusion.OfficeChart.Base.dll",
+        "lib/net45/Syncfusion.OfficeChart.Base.xml",
+        "lib/net451/Syncfusion.OfficeChart.Base.dll",
+        "lib/net451/Syncfusion.OfficeChart.Base.xml",
+        "lib/net46/Syncfusion.OfficeChart.Base.dll",
+        "lib/net46/Syncfusion.OfficeChart.Base.xml",
+        "lib/net5.0/Syncfusion.OfficeChart.Base.dll",
+        "lib/net5.0/Syncfusion.OfficeChart.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.xml",
+        "syncfusion.officechart.base.19.3.0.57.nupkg.sha512",
+        "syncfusion.officechart.base.nuspec",
+        "syncfusion_logo.png"
       ]
     }
   },
@@ -426,12 +298,10 @@
     ".NETCoreApp,Version=v3.1": [
       "ExcelDataReader >= 3.6.0",
       "ExcelDataReader.DataSet >= 3.1.0",
-      "GemBox.Document >= 33.0.1345",
-      "Microsoft.Office.Interop.Word >= 15.0.4797.1003",
-      "Microsoft.Office365.Discovery >= 1.0.22",
       "PdfiumViewer >= 2.13.0",
       "PdfiumViewer.Native.x86.v8-xfa >= 2018.4.8.256",
-      "PdfiumViewer.Native.x86_64.v8-xfa >= 2018.4.8.256"
+      "PdfiumViewer.Native.x86_64.v8-xfa >= 2018.4.8.256",
+      "Syncfusion.DocIO.WinForms >= 19.3.0.57"
     ]
   },
   "packageFolders": {
@@ -481,18 +351,6 @@
             "target": "Package",
             "version": "[3.1.0, )"
           },
-          "GemBox.Document": {
-            "target": "Package",
-            "version": "[33.0.1345, )"
-          },
-          "Microsoft.Office.Interop.Word": {
-            "target": "Package",
-            "version": "[15.0.4797.1003, )"
-          },
-          "Microsoft.Office365.Discovery": {
-            "target": "Package",
-            "version": "[1.0.22, )"
-          },
           "PdfiumViewer": {
             "target": "Package",
             "version": "[2.13.0, )"
@@ -504,6 +362,10 @@
           "PdfiumViewer.Native.x86_64.v8-xfa": {
             "target": "Package",
             "version": "[2018.4.8.256, )"
+          },
+          "Syncfusion.DocIO.WinForms": {
+            "target": "Package",
+            "version": "[19.3.0.57, )"
           }
         },
         "imports": [
@@ -535,36 +397,6 @@
       "warningLevel": 1,
       "message": "Package 'ExcelDataReader.DataSet 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "ExcelDataReader.DataSet",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Office.Interop.Word 15.0.4797.1003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Office.Interop.Word",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Office365.Discovery 1.0.22' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Office365.Discovery",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json 6.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
